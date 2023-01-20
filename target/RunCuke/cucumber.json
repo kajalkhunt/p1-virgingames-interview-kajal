@@ -1,0 +1,98 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7568182400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "As a user I want to click on live casino tab",
+        "description": "",
+        "id": "live-casino;as-a-user-i-want-to-click-on-live-casino-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 772459400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 193311500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Virgin games homepage",
+            "match": {
+              "location": "LiveCasinoSteps.iAmOnVirginGamesHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 174513500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am clicking on live casino tab",
+            "match": {
+              "location": "LiveCasinoSteps.iAmClickingOnLiveCasinoTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119229400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on live casino page",
+            "match": {
+              "location": "LiveCasinoSteps.iAmOnLiveCasinoPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 565277600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify the text \"Live Blackjack Games\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Live Blackjack Games",
+                  "offset": 19
+                }
+              ],
+              "location": "LiveCasinoSteps.iVerifyTheText(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Live Casino",
+    "description": "As a user I want to click on Live Casino tab",
+    "id": "live-casino",
+    "keyword": "Feature",
+    "uri": "LiveCasio.feature"
+  }
+]
